@@ -141,7 +141,7 @@ const quizData = {
       alternatives: [
         {
           id: 1,
-          text: 'K',
+          text: 'G',
           isCorrect: true,
         },
         {
