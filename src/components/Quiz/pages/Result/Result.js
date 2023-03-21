@@ -50,8 +50,16 @@ function Result({
       <div className={styles.title}>
         <strong>{chosenResult.title}</strong>
       </div>
+      
+            <div className={styles.subtitle}>
+        {chosenResult.subtitle}     
+      </div>
 
-      <div className={styles.description}>{chosenResult.description}</div>
+        <br/>
+    
+      <div className={styles.description}>
+	    <a href="https://leap-au.azurewebsites.net">{chosenResult.description}</a>
+	  </div>
 
       <div className={styles['restart-button-container']}>
         <Button
